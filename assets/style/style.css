@@ -14,7 +14,9 @@ input {
   padding: 0.5rem 1rem;
 }
 
-input, label {
+input,
+label,
+select {
   display: block;
   width: 100%;
   margin: 0.3rem 0;
@@ -25,4 +27,19 @@ input, label {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+.gender {
+  margin: 2rem 0;
+}
+.gender input,
+.gender label {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+#drop-down {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
 }/*# sourceMappingURL=style.css.map */
