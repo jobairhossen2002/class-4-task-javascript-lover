@@ -28,15 +28,18 @@ select {
 .gender {
   margin: 2rem 0;
 
-  input,
+  input{
+    width: auto;
+    display: inline-block;
+  }
   label {
-    width: 50%;
-    float: left;
-    text-align: left;
+    display: inline-block;
+    width: auto;
+    margin: 0 2rem 0 0.3rem;
   }
 }
 
-#drop-down {
+#drop_down {
   margin-bottom: 1rem;
   padding: 0.5rem 0;
 }

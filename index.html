@@ -57,8 +57,7 @@
         <input
           type="text"
           placeholder="Please Write your height in centimeters "
-          id="height"
-        />
+          id="height" />
         <!-- height -->
 
         <!-- weight -->
@@ -66,44 +65,42 @@
         <input
           type="text"
           placeholder="Please Write your weight in kilograms"
-          id="weight"
-        />
+          id="weight" />
         <!-- weight -->
 
         <!-- Gender -->
         <div class="gender">
           <p>Gender</p>
-          <input type="radio" id="female" name="gender" />
+          <input type="radio" id="female" value="female" name="gender" />
           <label for="female">Female</label>
 
-          <input type="radio" id="male" name="gender" />
+          <input type="radio" id="male" value="male" name="gender" />
           <label for="male">Male</label>
 
-          <input type="radio" id="other" name="gender" />
+          <input type="radio" id="other" value="other" name="gender" />
           <label for="other">Other</label>
         </div>
         <!-- Gender -->
 
-
         <!-- drop-down -->
-        <!-- <label for="drop-down">choose a option</label> -->
-        <select name="drop-down" id="drop-down">
-          <option value="choose a option">choose a option</option>
+        <label for="drop_down">Which Language You Learning now...?</label>
+        <select name="drop_down" id="drop_down">
+          <option value="">Choose a option</option>
           <option value="c">c</option>
           <option value="c++">c++</option>
-          <option value="java">java</option>
+          <option value="java">Java</option>
           <option value="JavaScript">JavaScript</option>
           <option value="Python">Python</option>
           <option value="Rust">Rust</option>
         </select>
         <!-- drop-down -->
 
-        
         <!-- button -->
-        <input type="button" value="Submit" />
+        <input type="button" value="Submit" onclick="getDataInForm()" />
         <!-- button -->
-
       </form>
     </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>
